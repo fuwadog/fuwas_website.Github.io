@@ -62,34 +62,49 @@ header {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-.containerOftxt {
-  float: right;
-  color: white;
-  max-width: 500px;
-  margin-right: 20px;
-}
-
-#toptxt {
-  margin-top: 100px;
-}
-#middletxt {
-  margin-top: 30px;
-}
-
-#btn_txt {
-  display: inline-block;
-  margin-right: 30px;
-  font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
-  padding: 5px 30px;
-  transition: color 0.3s ease;
-}
-#btn_txt {
-  background-color: rgba(0, 136, 169, 1);
-  border: none;
+.box,
+.box2 {
   border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  width: 50%;
+  padding: 1px;
+  height: 370px;
+  box-sizing: border-box;
 }
 
+.box,
+.box2 {
+  /*box bg color and size*/
+  width: 50%;
+  height: 600px;
+  border: 5px solid black;
+}
+
+.box {
+  margin-top: 30px;
+  margin-left: 230px;
+  background-color: gray;
+}
+.box2 {
+  margin-top: 30px;
+  margin-left: 230px;
+  background-color: gray;
+}
+#boxh2 {
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 25%;
+  display: block;
+  float: left;
+  width: 310px;
+  height: 310px;
+}
+
+#ulbox{
+margin-left: 50%;
+margin-top: 10px;
+  font-size: 20px;
+}
